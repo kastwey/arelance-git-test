@@ -5,6 +5,7 @@ export function JuanjoPage() {
     <Layout>
       <h2>Juanjo</h2>
       <p>¡Este es juanjo! ¿Habéis visto qué feo es?</p>
+      <p>Dirección de correo electrónico: juanjo@niidea.com</p>
     </Layout>
   );
 }
