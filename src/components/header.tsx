@@ -1,0 +1,17 @@
+import { NavLink } from "react-router-dom";
+export function Header() {
+  return (
+    <>
+      <nav aria-label="Menú de navegación">
+        <ul>
+          <li>
+            <NavLink to="/">Inicio</NavLink>
+          </li>
+          <li>
+            <NavLink to="people/juanjo">Juanjo</NavLink>
+          </li>
+        </ul>
+      </nav>
+    </>
+  );
+}
