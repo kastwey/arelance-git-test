@@ -13,6 +13,7 @@ export function Header() {
           <li>
             <NavLink to="people/juanjo">Juanjo</NavLink>
           </li>
+          <li><NavLink to="about">Sobre el proyecto</NavLink></li>
         </ul>
       </nav>
     </>
