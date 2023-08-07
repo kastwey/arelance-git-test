@@ -8,6 +8,9 @@ export function Header() {
             <NavLink to="/">Inicio</NavLink>
           </li>
           <li>
+            <NavLink to="people/juanLuis">Juan Luis</NavLink>
+          </li>
+          <li>
             <NavLink to="people/juanjo">Juanjo</NavLink>
           </li>
         </ul>
