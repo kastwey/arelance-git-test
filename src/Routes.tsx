@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { AgusPage } from "./pages/AgusPage";
 import { JuanjoPage } from "./pages/JuanjoPage";
 import { JuanLuisPage } from "./pages/JuanLuisPage";
 import { IndexPage } from "./pages/IndexPage";
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
     path: "people/juanjo",
     element: <JuanjoPage />,
   },
+  {
+    path: "people/agus",
+    element: <AgusPage />,
+  },
+
   {
     path: "about",
     element: <AboutProjectPage />,
