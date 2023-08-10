@@ -4,7 +4,7 @@ export function QuicoPage() {
   return (
     <Layout>
       <h2>Quico</h2>
-	  <p>Quico crea una página como otra culaquiera.</p>
+	  <p>Quico crea una página como otra cualquiera.</p>
     </Layout>
   );
 }
