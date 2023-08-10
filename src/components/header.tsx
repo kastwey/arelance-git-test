@@ -14,6 +14,12 @@ export function Header() {
             <NavLink to="/people/juanjo">Juanjo</NavLink>
           </li>
           <li>
+            <NavLink to="/people/agus">Agus</NavLink>
+          </li>
+          <li>
+            <NavLink to="/people/georgiana">Georgiana</NavLink>
+          </li>
+          <li>
             <NavLink to="/about">Sobre el proyecto</NavLink>
           </li>
         </ul>
