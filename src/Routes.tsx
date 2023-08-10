@@ -2,9 +2,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { AgusPage } from "./pages/AgusPage";
 import { JuanjoPage } from "./pages/JuanjoPage";
 import { JuanLuisPage } from "./pages/JuanLuisPage";
+import { MoiPage } from "./pages/MoiPage";
 import { IndexPage } from "./pages/IndexPage";
 import { AboutProjectPage } from "./pages/AboutProjectPage";
 import { GeorgianaPage } from "./pages/GeorgianaPage";
+
 const router = createBrowserRouter([
   {
     path: "",
@@ -25,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "people/agus",
     element: <AgusPage />,
+  },
+  {
+    path: "people/moi",
+    element: <MoiPage />,
   },
   {
     path: "about",
