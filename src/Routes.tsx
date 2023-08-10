@@ -5,6 +5,7 @@ import { JuanLuisPage } from "./pages/JuanLuisPage";
 import { MoiPage } from "./pages/MoiPage";
 import { IndexPage } from "./pages/IndexPage";
 import { AboutProjectPage } from "./pages/AboutProjectPage";
+import { BilalPage } from "./pages/BilalPage ";
 import { GeorgianaPage } from "./pages/GeorgianaPage";
 
 const router = createBrowserRouter([
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
     element: <JuanjoPage />,
   },
   {
+    path: "people/bilal",
+    element: <BilalPage />,
+  },
+	{
     path: "people/georgiana",
     element: <GeorgianaPage />,
   },
