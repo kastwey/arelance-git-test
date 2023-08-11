@@ -17,7 +17,7 @@ export function Header() {
             <NavLink to="/people/agus">Agus</NavLink>
           </li>
           <li>
-            <NavLink to="/people/georgiana">Georgiana</NavLink>
+            <NavLink to="/people/georgiana">Georgiana hace una pr desde vscode</NavLink>
           </li>
                     <li>
             <NavLink to="/people/moi">Moi</NavLink>
